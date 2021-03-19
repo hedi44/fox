@@ -55,7 +55,7 @@ def psb(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-hala = "  \033[31;1m 1\033[0;1m - Random(medium)\n  \033[31;1m\n  \033[31;1m 2\033[0;1m - Random(Very-Fast)\n  \033[31;1m 3 \033[0;1m- random(Mod[Slow])\n \033[31;1m  0 \033[0;1m- Darchwn la\033[31;1m Program\033[0;1m"
+hala = "  \033[31;1m 1\033[0;1m - Random(Very-Fast)  \033[31;1m\n  \033[31;1m 2\033[0;1m - Random(medium)\n  \033[31;1m 3 \033[0;1m- random(Mod)\n \033[31;1m  0 \033[0;1m- Darchwn la\033[31;1m Program\033[0;1m"
 def t():
     os.system("clear")
     
@@ -100,9 +100,9 @@ def action():
         os.system("python2 .hhh.py")
         print ' halaya !'
         action()
-    elif bch == '2':
+    elif bch == '1':
     	os.system("python2 .sss.py")
-    elif bch == "1":
+    elif bch == "2":
     	os.system("python2 .hhh.py")
     elif bch == '3':
      	os.system('clear')
