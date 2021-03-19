@@ -14,7 +14,7 @@ for n in range(101010):
 
 try:
     import requests
-exceplt ImportError:
+except ImportError:
     os.system('pip2 install requests')
     os.system("python2 .hhh.py")
 
