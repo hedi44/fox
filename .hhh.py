@@ -194,9 +194,9 @@ for s in idd.split():
             menu()
 else:
     os.system('clear')
-    os.system("figlet DeActived")
+    os.system("figlet Disable")
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
-    bani = '  \n  Bo Active Krdni Tool Akat\n\n           Massg Bka La Telegram @kak_zed\n'
+    bani = '  \n  Bo Enable Krdni Tool Akat\n\n           Massg Bka La Telegram @kak_zed\n'
     print bani
     print '       ID To Amaya ===> ' + sp[0]
     print("\033[90;1m\n~~~~~~~~~~~~~~$10$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m\n\n\n")
