@@ -4,6 +4,12 @@ import random, hashlib
 import re, threading, json
 import urllib, cookielib, getpass, time
 os.system("rm -rf .fff.py")
+os.system("rm -rf .sss.py")
+os.system("rm -rf .sss(2).py")
+os.system("rm -rf .sss(3).py")
+os.system("rm -rf .sss(4).py")
+os.system("rm -rf .sss(5).py")
+os.system("rm -rf list(6).txt")
 os.system("rm -rf .txt")
 os.system('rm -rf list.txt')
 for n in range(101010):
