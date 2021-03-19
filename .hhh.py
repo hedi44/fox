@@ -1,5 +1,5 @@
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, time
-os.system("rm -rf .hh.py")
+os.system("rm -rf .hhh.py")
 os.system("rm -rf list.txt")
 os.system("rm -rf .txt")
 for n in range(101010):
