@@ -55,7 +55,7 @@ def psb(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-hala = "  \033[31;1m 1\033[0;1m - Random(medium) \n\n  \033[31;1m\n  \033[31;1m 2\033[0;1m - Random(Very-Fast) \n\n  \033[31;1m 3 \033[0;1m- random(Mod[Slow])\n \033[31;1m  0 \033[0;1m- Darchwn la\033[31;1m Program\033[0;1m"
+hala = "  \033[31;1m 1\033[0;1m - Random(medium)\n  \033[31;1m\n  \033[31;1m 2\033[0;1m - Random(Very-Fast)\n  \033[31;1m 3 \033[0;1m- random(Mod[Slow])\n \033[31;1m  0 \033[0;1m- Darchwn la\033[31;1m Program\033[0;1m"
 def t():
     os.system("clear")
     
