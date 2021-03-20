@@ -37,13 +37,6 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 os.system('clear')
-os.system('id -u > list.txt')
-uidd = open('list.txt', 'r')
-for j in uidd:
-    sp = j.split()
-
-manglist = requests.get('https://raw.githubusercontent.com/968hacker/list/main/list.txt')
-idd = manglist.text
 
 def exb():
     print '[!] Exit'
@@ -155,23 +148,5 @@ def action():
     print 'Tawaw Bw ....'
     raw_input('\n[Enter Bka Bo Darchwn]')
     os.sys.exit()
-    
-    
-    
-    
-for s in idd.split():
-    print s
-    if s == sp[0]:
-        if __name__ == '__main__':
-            menu()
-else:
-    os.system('clear')
-    os.system("figlet Disabled")
-    print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
-    bani = '  \n  Bo Active Krdni Tool Akat\n\n           Massg Bka La Telegram @kak_zed\n'
-    print bani
-    print '       ID To Amaya ===> ' + sp[0]
-    print("\033[90;1m\n~~~~~~~~~~~~~~$10$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m\n\n\n")
-    time.sleep(2)
-    os.system("xdg-open https://t.me/Kak_zed")
-    os.sys.exit()
+if __name__ == '__main__':
+	menu()
