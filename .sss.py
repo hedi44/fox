@@ -72,7 +72,7 @@ os.system("clear")
 def menu():
     os.system("rm -rf list.txt")
     os.system('clear')
-    os.system("xdg-open https://t.me/kak_zed_1")
+    os.system("xdg-open https://t.me/zed_cracker_1")
     time.sleep(2)
     print("\033[32m.")
     os.system("clear")
