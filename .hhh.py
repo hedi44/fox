@@ -81,7 +81,7 @@ def menu():
     os.system("clear")
     os.system("figlet Type")
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
-    print("   Auther: Zed\n   My Lion: Dark\n   Chenall telegram: @kak_zed_1\n   bnwsa 123")
+    print("   Auther: Zed\n   My Lion: 💔\n   Chenall telegram: @kak_zed_1\n   bnwsa 123")
  
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
     action()
@@ -100,7 +100,7 @@ def action():
      	os.system('clear')
      	print("\033[32m.")
      	os.system("clear")
-     	os.system("figlet Dark Coder")
+     	os.system("figlet Zed Coder")
      	print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
      	print '\033[32m 770 - 771 - 772 - 773 - 774\n  750 - 751 - 752 - 753 - 754\n   780 - 781 - 782 - 783 - 784\033[0;1m\n\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m'
      	try:
