@@ -78,7 +78,7 @@ def menu():
     os.system("clear")
     os.system("figlet Type")
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
-    print("   Auther: Zed\n   My Lion: Dark\n   Chenall telegram: @kak_zed_1\n   bnwsa 123")
+    print("   Auther: Zed\n   My Lion: 💔\n   Chenall telegram: @kak_zed_1\n   bnwsa 123")
  
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
     action()
