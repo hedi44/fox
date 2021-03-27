@@ -154,5 +154,19 @@ def action():
     print 'Tawaw Bw ....'
     raw_input('\n[Enter Bka Bo Darchwn]')
     os.sys.exit()
-if __name__ == '__main__':
-	menu()
+for s in idd.split():
+    print s
+    if s == sp[0]:
+        if name == '__main__':
+            menu()
+else:
+    os.system('clear')
+    os.system("figlet Disable")
+    print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
+    bani = '  \n  Bo Enable Krdni Tool Akat\n\n           Massg Bka La Telegram @kak_zed\n'
+    print bani
+    print '       ID To Amaya ===> ' + sp[0]
+    print("\033[90;1m\n~~~~~~~~~~~~~~$10$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m\n\n\n")
+    time.sleep(2)
+    os.system("xdg-open https://t.me/Kak_zed")
+    os.sys.exit()
