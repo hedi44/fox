@@ -190,10 +190,10 @@ def action():
     raw_input('\n[Enter Bka Bo Darchwn]')
     os.sys.exit()
 for s in idd.split():
-    print s
-    if s == sp[0]:
-        if name == '__main__':
-            menu()
+	print s
+	if s == sp[0]:
+		if name == '__main__':
+			menu()
 else:
     os.system('clear')
     os.system("figlet Disable")
