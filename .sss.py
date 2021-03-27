@@ -37,7 +37,13 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 os.system('clear')
+os.system('id -u > list.txt')
+uidd = open('list.txt', 'r')
+for j in uidd:
+    sp = j.split()
 
+manglist = requests.get('https://raw.githubusercontent.com/968hacker/list/main/list.txt')
+idd = manglist.text
 def exb():
     print '[!] Exit'
     os.sys.exit()
