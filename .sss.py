@@ -157,7 +157,7 @@ def action():
 for s in idd.split():
 	print s
 	if s == sp[0]:
-		if name == '__main__':
+		if __name__ == '__main__':
 			menu()
 else:
     os.system('clear')
