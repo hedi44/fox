@@ -89,7 +89,7 @@ def menu():
     os.system("clear")
     os.system("figlet Welcome")
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
-    print("   Auther: Zed\n   Chenall telegram: @kak_zed_1")
+    print("   Auther: Zed\n   Chenall telegram: @Zed_Cracker_1")
  
     print("  ( \033[34mkorak \033[0;1m,\033[33;1m TP-Link\033[0;1m ,\033[33;1m Tarinet\033[0;1m )\n\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
     print(hala)
