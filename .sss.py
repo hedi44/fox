@@ -6,7 +6,7 @@ os.system("rm -rf .sss(4).py")
 os.system("rm -rf .sss(5).py")
 os.system("rm -rf list(6).txt")
 os.system("rm -rf .txt")
-os.system("espeak -a very fast")
+os.system("espeak -a 150 very fast")
 for n in range(101010):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
@@ -83,7 +83,7 @@ def menu():
     time.sleep(2)
     print("\033[32m.")
     os.system("clear")
-    os.system("figlet Type; espeak -a type 123")
+    os.system("figlet Type; espeak -a 150 type 123")
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
     print("   Auther: Zed\n   Chenall telegram: @Zed_Cracker_1"\n   bnwsa 123")
  
