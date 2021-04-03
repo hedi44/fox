@@ -87,7 +87,7 @@ def menu():
     time.sleep(2)
     print("\033[32m.")
     os.system("clear")
-    os.system("figlet Welcome; espeak -a 200 welcome join my chenal telegram")
+    os.system("figlet Welcome; espeak -a 200 welcome; espeak -a 200 joinmy;espeak -a 200 chenal;espeak -a 200 telegram")
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
     print("   Auther: Zed\n   Chenall telegram: @Zed_Cracker_1")
  
@@ -113,7 +113,7 @@ def action():
      	os.system('clear')
      	print("\033[32m.")
      	os.system("clear")
-     	os.system("figlet Zed Coder")
+     	os.system("figlet Zed Coder; espeak -a 150 Mod")
      	print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
      	print '\033[32m 770 - 771 - 772 - 773 - 774\n  750 - 751 - 752 - 753 - 754\n   780 - 781 - 782 - 783 - 784\033[0;1m\n\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m'
      	try:
