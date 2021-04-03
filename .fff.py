@@ -87,7 +87,7 @@ def menu():
     time.sleep(2)
     print("\033[32m.")
     os.system("clear")
-    os.system("figlet Welcome; espeak -a welcome join my chenal telegram")
+    os.system("figlet Welcome; espeak -a 200 welcome join my chenal telegram")
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
     print("   Auther: Zed\n   Chenall telegram: @Zed_Cracker_1")
  
