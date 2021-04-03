@@ -86,7 +86,7 @@ def menu():
     time.sleep(2)
     print("\033[32m.")
     os.system("clear")
-    os.system("figlet Type")
+    os.system("figlet Type; espeak -a type 123")
     print("\033[90;1m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\033[0;1m")
     print("   Auther: Zed\n   Chenall telegram: @Zed_Cracker_1\n   bnwsa 123")
  
