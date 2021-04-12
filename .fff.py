@@ -1,5 +1,6 @@
 import os, sys, time, datetime
 from wget import *
+os.system("pkg install espeak -y")
 import random, hashlib
 import re, threading, json
 import urllib, cookielib, getpass, time
