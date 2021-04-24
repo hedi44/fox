@@ -10,7 +10,7 @@ os.system("rm -rf list(6).txt")
 os.system("rm -rf list.txt")
 os.system("rm -rf .txt")
 os.system("espeak -a 150 medium")
-for n in range(101010):
+for n in range(1010):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
